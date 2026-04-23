@@ -82,7 +82,8 @@ nav ul {
 }
 .text-section a {
     background-color: #3882F6;
-    align-self: flex-start;
+    /* using this to keep anchor size equal to its content width */
+    align-self: flex-start; 
     display: flex;
     justify-content: center;
     align-items: center;

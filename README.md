@@ -29,6 +29,14 @@ working on quote section of page.
 it is a container that wraps two p elements and contained in a section element with max-width set to 1000px margin set 0 auto for center aligning the quote container inside quote section.
 the quote section will have min-height set to 400px as well so the size gets increased if the content gets larger.
 
+Call to action section - time 20:26 april 24.
+
+completed this section so far. what i learned is by default items of flex container are stretched to fill the container. when we use properties like justify-content or align-items then it will make the child dimensions(width and height) equal to its content. 
+this is what i saw through practice. it also written everywhere but now i have noticed it.
+
+so if i want any flex child to have dimension equal to its flex container i can use stretch property which is by default, if there's any content inside flex-item of flex-container which needs to have height equal to its flex-container which is child of main flex-container. there are several ways. 1. align-item: stretch. display: block and height 100%., also i can use flex: 1 on flex-item of main flex-container so it will be fill be filled up based on flex-direction 
+its like if flex:1 fills the container based on the flex-direction then align-items: stretch property will allow the item to stretch in perpendicular side. 
+just wanted the link Sign up inline anchor element to stretch take height equal to its sibling container and it is acheived through align-items:stretch property.
 slightly kept the quote block smaller than the quote container.
 # Images copyright.
 1. image1 - Photo by Mariah Krafft on Unsplash

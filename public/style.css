@@ -121,7 +121,8 @@ nav ul {
 
 .hero .img-section p {
     color: #E5E7EB;
-    font-size: 20;
+    font-size: 20px;
+    flex: 1;
     text-align: center;
 }
 
@@ -224,4 +225,36 @@ nav ul {
 
 .info-card .info-text {
     text-align: center;
+}
+
+/* QUOTE SECTION */
+
+#quote-section {
+    min-height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+.quote-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.quote-wrapper .quote-source {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.quote-wrapper blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+.quote-wrapper .quote-author {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: right;
 }

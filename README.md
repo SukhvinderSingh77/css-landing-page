@@ -25,8 +25,16 @@ flex: 1 auto didn't work so i used fixed width and height at image div.
 
 images edges were getting overflowed from their respective container so used height width to % values, hidden the overflow of image and also used object-fit property though it didn't have effect since images were not overflowing exactly but staying on rounded edges of its container, so also used border radius 12px on image. slightly lower than the container.
 
+working on quote section of page. 
+it is a container that wraps two p elements and contained in a section element with max-width set to 1000px margin set 0 auto for center aligning the quote container inside quote section.
+the quote section will have min-height set to 400px as well so the size gets increased if the content gets larger.
+
+slightly kept the quote block smaller than the quote container.
 # Images copyright.
 1. image1 - Photo by Mariah Krafft on Unsplash
 2. image2 - Photo by Parsa Mahmoudi on Unsplash
 3. image 3 - Photo by ruedi häberli on Unsplash
 4. image 4 - Photo by Samuel Quek on Unsplash
+
+# Quote Taken from
+Goodreads.com [Steve Jobs quote](https://www.goodreads.com/author/show/5255891.Steve_Jobs)

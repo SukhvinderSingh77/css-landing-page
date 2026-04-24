@@ -38,6 +38,18 @@ so if i want any flex child to have dimension equal to its flex container i can 
 its like if flex:1 fills the container based on the flex-direction then align-items: stretch property will allow the item to stretch in perpendicular side. 
 just wanted the link Sign up inline anchor element to stretch take height equal to its sibling container and it is acheived through align-items:stretch property.
 slightly kept the quote block smaller than the quote container.
+
+footer completed. time 20:51
+this page is complete with this footer work complete.
+
+
+it did taught me few to several things which i wont be rembering thats why i tried to note down everything i could think of to revisit anytime here. 
+
+# More fixes to come
+1. Hover effect on nav link
+2. Responsiveness
+3. Actual real life content instead of using placeholder texts.
+
 # Images copyright.
 1. image1 - Photo by Mariah Krafft on Unsplash
 2. image2 - Photo by Parsa Mahmoudi on Unsplash

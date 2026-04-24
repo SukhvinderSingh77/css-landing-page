@@ -312,3 +312,15 @@ nav ul {
        border-radius: 10px;
    }
 
+/* FOOTER SECTION */
+footer {
+    padding: 32px 20px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: #F9FAF8;
+    font-size: 18px;
+}

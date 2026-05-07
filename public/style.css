@@ -24,7 +24,7 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 20px 16px
+    padding: 20px 0;
 }
 
 nav {
@@ -45,18 +45,68 @@ nav {
     font-weight: 600;
     color: #F9FAF8;
 }
-
 nav ul {
     display: flex;
-    gap: 16px;
+    gap: 20px;
     list-style: none;
+}
+/* using flex: 1 on childs of .nav-links to equally distribute space between them */
+.nav-links> a {
+    flex-grow: 2;
+}
+.nav-links>ul {
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
 .nav-links ul li a {
     text-decoration: none;
     color: #E5E7EB;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 17px;
+    position: relative;
+    font-weight: 600;
+}
+.nav-links ul li a:active {
+    color: black;
 }
 
+.nav-links ul li:last-child a {
+    background-color: #fff;
+    color: black;
+    border: none;
+}
+.nav-links ul li a:hover::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+.nav-links ul li a:active::after {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: #111;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+} 
+.nav-links ul li:last-child a:active::after {
+    content: '';
+    height: 0;
+    width: 0;
+}
+/* Adding styles to let user know visually that a link is visited */
+.nav-links>a:visited {
+    text-decoration: underline;
+}
+
+.nav-links>ul>li>a:visited {
+    text-decoration: underline;
+}
 /* hero section */
 #hero-section {
     min-height: 400px;

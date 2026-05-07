@@ -45,6 +45,14 @@ this page is complete with this footer work complete.
 
 it did taught me few to several things which i wont be rembering thats why i tried to note down everything i could think of to revisit anytime here. 
 
+# May 07 - Working on nav
+adding a hover effect on navbar links and several states for links to visually make it different from other text.
+
+1. removed padding from header and added only top bottom padding
+2. used pseudo class :active and psuedo element ::after for visually giving information that a link is being clicked
+and ::after for applying a underline to link upon hover indicating it is an interactive element
+3. also added a background color to last link item for design purpose and visual alignment of links with page content.
+
 # More fixes to come
 1. Hover effect on nav link
 2. Responsiveness

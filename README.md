@@ -54,7 +54,7 @@ and ::after for applying a underline to link upon hover indicating it is an inte
 3. also added a background color to last link item for design purpose and visual alignment of links with page content.
 
 # More fixes to come
-1. Hover effect on nav link
+1. Hover effect on nav link - DONE
 2. Responsiveness
 3. Actual real life content instead of using placeholder texts.
 
